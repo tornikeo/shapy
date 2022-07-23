@@ -22,6 +22,11 @@ The code has been tested with Python 3.8, CUDA 10.2 and PyTorch 1.7.1 on Ubuntu 
     pip install -r requirements.txt
     python setup.py install
     ```
+- You will also need to install the following apt package:
+   ```
+   sudo apt-get update
+   sudo apt-get install libturbojpeg
+   ```
 
 ### Body model and model data
 
